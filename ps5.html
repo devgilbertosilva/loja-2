@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlayStation 5 - Smart Direct</title>
+  <link rel="stylesheet" href="ps5.css">
+</head>
+<body>
+
+  <!-- TOPO -->
+  <div class="topo">
+    <h1>SMART DIRECT - PLAYSTATION 5</h1>
+  </div>
+
+  <!-- CONTAINER PRINCIPAL -->
+  <div class="container-ps5">
+
+    <!-- IMAGEM DO PRODUTO -->
+    <div class="ps5-imagem">
+      <img src="images/ps5.jpg" alt="PlayStation 5 Slim">
+    </div>
+
+    <!-- INFORMAÇÕES -->
+    <div class="info">
+      <p class="destaque">
+        <strong>Console Sony PlayStation 5 Slim, Edição Digital, SSD 1TB, Controle Sem Fio DualSense + 2 Jogos Digitais - 1000038894</strong>
+      </p>
+      <p>Vendido e entregue: Smart Direct</p>
+      <h5>Sobre o Produto</h5>
+      <ul>
+        <li>
+          <h3>Desempenho Poderoso</h3>
+          <p>Processador AMD Zen 2 e GPU RDNA 2 entregam gráficos em até 4K/120FPS com Ray Tracing.</p>
+        </li>
+        <li>
+          <h3>Armazenamento Ultrarápido</h3>
+          <p>SSD de 1 TB NVMe garante carregamentos quase instantâneos nos jogos.</p>
+        </li>
+        <li>
+          <h3>Controle DualSense Avançado</h3>
+          <p>Feedback háptico e gatilhos adaptáveis oferecem uma experiência imersiva única.</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- COMPRA -->
+    <div class="compra">
+      <p class="grifado">R$ 3.999,90</p>
+      <button class="btn-comprar">🛒 Comprar agora</button>
+      <button class="btn-carrinho">🛒 Ir para o carrinho</button>
+    </div>
+
+  </div> <!-- FIM CONTAINER -->
+
+  <!-- MODAL DE COMPRA -->
+  <div id="modal-carrinho" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" id="fechar-compra">&times;</span>
+      <h2>Compra do Produto</h2>
+      <div id="resumo-carrinho"></div>
+
+      <h3>Endereço de Entrega</h3>
+      <form id="form-endereco">
+        <input type="text" name="nome" placeholder="Nome completo" required>
+        <input type="text" name="cep" placeholder="CEP" required pattern="\d{5}-?\d{3}">
+        <button type="submit">Calcular Frete</button>
+      </form>
+
+      <div id="frete-calculado"></div>
+
+      <button id="btn-finalizar">Finalizar Compra</button>
+      <button id="btn-limpar" class="btn-discreto">Limpar Carrinho</button>
+    </div>
+  </div>
+
+  <!-- MODAL DO CARRINHO DE ITENS -->
+  <div id="modal-carrinho-itens" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" id="fechar-itens">&times;</span>
+      <h2>Itens no Carrinho</h2>
+      <div id="lista-itens"></div>
+    </div>
+  </div>
+
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <div class="rodape-conteudo">
+      <div class="coluna">
+        <h4>Smart Direct</h4>
+        <p>Seu destino para eletrônicos de ponta com qualidade e confiança.</p>
+      </div>
+    </div>
+    <div class="rodape-final">
+      <p>&copy; 2025 Smart Direct. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="ps5.js"></script>
+</body>
+</html>
+
+
+
+ 
